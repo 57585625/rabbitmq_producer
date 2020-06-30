@@ -1,0 +1,13 @@
+server:
+  port: 8088
+  tomcat:
+    uri-encoding: utf-8
+
+#配置rabbit连接参数
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    publisher-confirms: true    #消息发送确认
